@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Body.png" />
+    <None Remove="Resources\DeadBody.png" />
+    <None Remove="Resources\DeadHead.png" />
+    <None Remove="Resources\Empty.png" />
+    <None Remove="Resources\Food.png" />
+    <None Remove="Resources\Head.png" />
+    <None Remove="Resources\icon.ico" />
+    <None Remove="Resources\Quicksand-Regular.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Body.png" />
+    <Resource Include="Resources\DeadBody.png" />
+    <Resource Include="Resources\DeadHead.png" />
+    <Resource Include="Resources\Empty.png" />
+    <Resource Include="Resources\Food.png" />
+    <Resource Include="Resources\Head.png" />
+    <Resource Include="Resources\icon.ico" />
+    <Resource Include="Resources\Quicksand-Regular.otf" />
+  </ItemGroup>
+
+</Project>
